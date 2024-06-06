@@ -1,0 +1,21 @@
+.golovna {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+/* ============================LEFT============================== */
+.leftpart {
+  width: 20%;
+
+  background-color: rgb(205, 205, 211);
+}
+/* =============================CENTRAL============================== */
+.centralpart {
+  width: 60%;
+  background-color: rgb(232, 241, 241);
+}
+/* ================================RIGHT=============================== */
+.rightpart {
+  width: 20%;
+  background-color: rgb(205, 205, 211);
+}

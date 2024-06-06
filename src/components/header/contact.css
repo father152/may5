@@ -1,0 +1,18 @@
+.contact {
+  background-color: rgb(137, 189, 209);
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  color: rgb(45, 119, 119);
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+ 
+}
+p {
+  margin: 0;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}

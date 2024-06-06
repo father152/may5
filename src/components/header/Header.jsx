@@ -17,6 +17,12 @@ function Header() {
             <Link to="/about">ABOUT AS</Link>{" "}
           </li>
           <li>
+            <Link to="/history">HISTORY</Link>{" "}
+          </li>
+          <li>
+            <Link to="/portfolio">PORTFOLIO</Link>{" "}
+          </li>
+          <li>
             <Link to="/contact">CONTACT</Link>{" "}
           </li>
         </ul>

@@ -12,7 +12,21 @@
 /* =============================CENTRAL============================== */
 .centralpart {
   width: 60%;
-  background-color: rgb(232, 241, 241);
+ /* background-image: url(../Image/bubbles-230014_640.jpg); */
+  display: flex;
+}
+.container-2 {
+  
+  text-align: center;
+justify-content: space-around;
+}
+h1 {
+  font-size: 50px;
+ font-family: kalam;
+ color: rgb(6, 50, 83);
+}
+.container-2 img{
+width: 100%;
 }
 /* ================================RIGHT=============================== */
 .rightpart {

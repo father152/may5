@@ -6,8 +6,8 @@ import { About } from "./components/header/About.jsx"
 import { Contact } from "./components/header/Contact.jsx";
 import { Portfolio } from "./components/header/Portfolio.jsx";
 import { History } from "./components/header/History.jsx";
-
-
+import {House} from "./components/header/House.jsx"
+import { Apartment } from "./components/header/Apartment.jsx";
 
 function App() {
   return (
@@ -20,6 +20,12 @@ function App() {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
         </Route>
+ 
+        <Route path="/" element={<Layout />}>
+          <Route path="house" element={<House />} />
+          <Route path="apartment" element={<Apartment />} />
+        </Route>
+        
       </Routes>
     </>
   )

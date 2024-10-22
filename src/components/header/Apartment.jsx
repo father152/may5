@@ -42,6 +42,7 @@ function Apartment() {
           <img src={arrow} alt="arrow" />
         </Link>
       </div>
+      
     </div>
   );
 }

@@ -13,9 +13,9 @@ function Apartment() {
           <img src={arrow} alt="arrow" />
         </Link>
       </div>
-      
-        <img src={apartment} alt="apartment" />
-      
+
+      <img src={apartment} alt="apartment" />
+
       <p>
         Microsoft has developed versions of Visual Studio Code not only for
         Windows, but also for Linux and macOS. VS Code includes tools for
@@ -42,7 +42,6 @@ function Apartment() {
           <img src={arrow} alt="arrow" />
         </Link>
       </div>
-      
     </div>
   );
 }

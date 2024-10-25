@@ -7,9 +7,9 @@
   justify-content: space-around;
 }
 .logo img {
-  width: 100px;
+  width: 90px;
   border-radius: 50%;
-  box-shadow: 20px 20px 20px rgb(19, 47, 70);
+  /* box-shadow: 20px 20px 20px rgb(19, 47, 70); */
 }
 .menu ul {
   display: flex;
@@ -20,9 +20,9 @@
 .menu ul a {
   text-decoration: none;
   color: beige;
- padding-left: 50px;
- font-weight: bolder;
+  padding-left: 50px;
+  font-weight: bolder;
 }
 .menu ul a:hover {
-    color: aqua;
+  color: aqua;
 }

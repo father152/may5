@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 2px solid rgb(70, 70, 53);
+    padding: 0 5px 20px 5px;
+    background-color: rgb(216, 231, 226);
+}
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+img.picture {
+    width: 100%;
+  }
+  img.picture:hover{
+    transform: scale(2);
+    transition: 2s;
+    border-radius: 20px;
+  }
+span.description {
+    display: flex;
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px 5px 15px 5px;
+}
+.cost {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(240, 30, 30);
+}

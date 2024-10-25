@@ -1,53 +1,62 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import icon from "./logo/иконка домой.png";
 import "./history.css";
-import { useState } from "react";
+import { Link } from "react-router-dom";
+import home from "./logo/иконка домой.png";
+import { Card } from "./Card";
+import picture1 from "./logo/home-3150464_1280.jpg"
 
-function History() {
-  const [value, setValue] = useState("");
 
-  function handleChange(event) {
-    setValue(event.target.value);
-  }
 
+const History = () => {
   return (
-    <>
-      <div>
-        <select value={value} onChange={handleChange}>
-          <option selected>
-            <p>Change house</p>
-          </option>
-          <option>
-            <Link to="/house">House</Link>
-          </option>
-          <option>
-            <Link to="/apartment">Apartment</Link>
-          </option>
-          <option>
-            <Link to="/kitchen">Kitchen</Link>
-          </option>
-          <option>
-            <Link to="/hol">Hol</Link>
-          </option>
-        </select>
-      </div>
-      <p>ваш выбор: {value}</p>
+    <div className="history">
+      <h1>HISTORY</h1>
+      <div className="container-history">
 
-      <div class="dropdown" >
-      <button class="dropbtn">Left</button>
-      <div class="dropdown-content" >
-        <Link to="/house">House</Link>
-         <Link to="/apartment">Apartment</Link>
+      <Card 
+      title="HOUSE"
+      image={picture1} 
+      description="We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used"
+      cost="21"
+      />
+      <Card 
+      title="HOUSE"
+      image={picture1} 
+      description="We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used"
+      cost="21"
+      />
+      <Card 
+      title="HOUSE"
+      image={picture1} 
+      description="We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used"
+      cost="21"
+      />
+      <Card 
+      title="HOUSE"
+      image={picture1} 
+      description="We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used"
+      cost="21"
+      />
+      <Card 
+      title="HOUSE"
+      image={picture1} 
+      description="We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used"
+      cost="21"
+      />
+      <Card 
+      title="HOUSE"
+      image={picture1} 
+      description="We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used We recommend naming props from the component’s own point of view rather than the context in which it is being used"
+      cost="21"
+      />
       </div>
-    </div>
 
-      <div className="icon__home">
+      <div className="home">
         <Link to="/">
-          <img src={icon} alt="home" />
+          <img src={home} alt="home" />
         </Link>
       </div>
-    </>
+    </div>
   );
-}
+};
+
 export { History };

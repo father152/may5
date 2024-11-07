@@ -4,6 +4,7 @@ import picture2 from "./logo/home-3150464_1280.jpg";
 import home from "./logo/иконка домой.png";
 import { Link } from "react-router-dom";
 
+
 function About() {
   const xx = document.getElementById("pop");
   function changeColor() {
@@ -57,6 +58,7 @@ function About() {
       <p id="pop" className="popp">
         WELCOME!
       </p>
+
       <div className="home">
         <Link to="/">
           <img src={home} alt="home" />

@@ -1,8 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import {Dropdown} from "./Dropdown"
+import "./portfolio.css"
 function Portfolio() {
   return (
-    <div>Portfolio</div>
-  )
+    <div className="portfolio">
+    
+     <Dropdown />
+    </div>
+  );
 }
-export {Portfolio}
+export { Portfolio };
